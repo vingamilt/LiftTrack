@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add Workouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="resources/css/main.css" />
+
+</head>
+<body>
+    <div class="add_routine">
+        <label for="routine_name">Enter Routine Name</label>
+        <input type="text" id="routine_name" name="routine_name" placeholder="Enter Routine Name">
+        <label for="routine_day">Enter Desired Day for Routine</label>
+        <input type="number" id="routine_day" name="routine_day" placeholder="Enter Routine Day">
+        <button id="finish_add_routine">Complete</button>
+    </div>
+    <div class="add_excercise">
+        <label for="excercise_name">Enter Excercise Name</label>
+        <input type="text" id="excercise_name" name="excercise_name" placeholder="Enter Excercise Name">
+        <label for="excercise_type">Enter Excerise Type</label>
+        <input type="text" id="excercise_type" name="excercise_type" placeholder="Enter Excercise Type">
+        <label for="excercise_weight">Enter Weight</label>
+        <input type="number" id="excercise_weight" name="excercise_weight" placeholder="Enter Weight">
+        <label for="excercise_reps">Enter Reps</label>
+        <input type="number" id="excercise_reps" name="excercise_reps" placeholder="Enter Reps">
+        <label for="excercise_routine_selector">Associate with a Routine</label>
+        <select id="excercise_routine_selector">
+            <option value="">Please choose an option</option>
+        </select>
+        <button id="finish_add_excercise">Complete</button>
+    </div>
+    <script src="resources/js/addworkout.js"></script>
+</body>
+</html>
