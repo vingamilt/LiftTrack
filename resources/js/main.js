@@ -5,18 +5,6 @@ var activity_day = ["Last Completed Day","Day 1","Day 2","Day 3","Day 4","Day 5"
 var activity_day_selector = document.getElementById("activity_day_selector");
 var completeDay = document.getElementById("complete_day");
 
-/* TEST Objects
-var excercise = {
-    name: "bench press",
-    type: "chest",
-    weight: 150,
-    reps: 10
-}
-
-var routine = {
-    excercise_one: excercise,
-}*/
-
 
 completeDay.addEventListener("click",updateCompleteDayMessage);
 // Update the class elements indicating the current workout day. 
